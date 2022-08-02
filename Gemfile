@@ -6,6 +6,11 @@ ruby '2.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
 gem 'mysql2'
+
+# useful debug tools
+gem 'better_errors'
+gem 'binding_of_caller'
+
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
